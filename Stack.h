@@ -1,12 +1,13 @@
-#pragma once
 
 #ifndef STACK_H
+#define STACK_H
 
 #include<iostream>
 #include<cstdlib>
 #include<time.h>
 #include<string.h>
 #include<conio.h>
+#include<string>
 
 using namespace std;
 

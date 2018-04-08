@@ -115,14 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="PrefixCalculator.h" />
-    <ClInclude Include="PostfixCalculator.h" />
+    <ClInclude Include="Postfix.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lab4.cpp" />
-    <ClCompile Include="PostfixCalculator.cpp" />
-    <ClCompile Include="PrefixCalculator.cpp" />
+    <ClCompile Include="Postfix.cpp" />
     <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

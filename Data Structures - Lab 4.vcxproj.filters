@@ -18,10 +18,7 @@
     <ClInclude Include="Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PostfixCalculator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PrefixCalculator.h">
+    <ClInclude Include="Postfix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,10 +29,7 @@
     <ClCompile Include="Lab4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PostfixCalculator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PrefixCalculator.cpp">
+    <ClCompile Include="Postfix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

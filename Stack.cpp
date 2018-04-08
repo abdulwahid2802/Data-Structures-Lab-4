@@ -67,7 +67,8 @@ void Stack<T>::_pop()
 template<class T>
 T Stack<T>::_top()const
 {
-	return top->data;
+	if(!_isEmpty())
+		return top->data;
 }
 
 template<class T>

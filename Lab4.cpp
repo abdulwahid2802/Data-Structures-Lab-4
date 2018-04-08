@@ -1,30 +1,34 @@
+/*
+Owner's Note:
+This project is designed to teach concept of:
+1. Prefix, Infix, Postfix conversions
+2. Class inheritance and templates
+3. OOP and encapsulation
 
-#include "PostfixCalculator.h"
-#include "PrefixCalculator.h"
+All the code written here fully follows OOP.
+This code is free and available on GitHub to Fork or Clone
+Feel free to report any bugs or mistakes in code or open issues on GitHub
+
+By Abduvohid,
+WCodingLabs @2018;
+wahid@sju.ac.kr
+*/
+#include "Postfix.h"
+#include "Stack.cpp"
 
 int main()
 {
-	//Stack<int> stack = Stack<int>();
 
-	// //push
-	//stack.push(5);
-	//stack.push(4);
-	//stack.push(3);
-	//stack.push(2);
-	//stack.push(1);
+	string str;
 
-	// //test pop
-	//stack.print();
-	//cout << endl;
-	//stack.pop();
-	//stack.print();
+	getline(cin, str);
 
+	Postfix postfix;
 
-	/*Postfix post;
-	post.getInfix();*/
+	string postExpr = postfix.infixToPostfix(str);
+	cout << postExpr << endl;
 
-	Prefix prefix;
-	prefix.getInfix();
+	cout<< postfix.evaluatePostix(postExpr);
 
 	_getch();
 	return 0;
